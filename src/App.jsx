@@ -22,7 +22,7 @@ const content = {
     galleryHeading: 'Learning In Action',
     gallerySubheading:
       'A vibrant environment where children explore math, tech, and creativity.',
-    finalHeading: 'Build A Strong Future, One Skill At A Time',
+    finalHeading: 'Build A Strong Future',
     finalText:
       'Join Royal Kids Academy and help your child gain confidence, clarity, and future-ready abilities.',
     footer: 'Royal Kids Academy | Bright Minds Castle',
@@ -176,7 +176,7 @@ function App() {
         <nav className="topbar">
           <div className="brand-block">
             <img
-              src="/images/royal-kids-logo.jpg"
+              src={`${import.meta.env.BASE_URL}images/royal-kids-logo.jpg`}
               alt="Royal Kids Academy logo"
               className="brand-logo"
             />
