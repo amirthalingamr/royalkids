@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Nunito:wght@400;600;700&display=swap');
+
+:root {
+  --font-display: 'Cinzel', serif;
+  --font-body: 'Nunito', sans-serif;
+  --text-primary: #24385f;
+  --surface: #f8f3e7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at top right, #efe2c8, #f8f3e7 55%);
+  font-family: var(--font-body);
+  color: var(--text-primary);
+}
+
+#root {
+  min-height: 100svh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  letter-spacing: 0.01em;
+}
+
+p,
+li,
+a,
+button {
+  font-family: var(--font-body);
+}
